@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8339ce3bf908e6c47a1526560e8fd3cd, type: 3}
+  m_Name: Starting Room
+  m_EditorClassIdentifier: 
+  roomDescription: 'You wake up in the cold hard floor of some unknown place.
+
+    You take a look around. the room you''re in seems rather austere, save for the
+    desk and bookcase, both with guilded wood carvings.
+
+    "Fancy woodwork", you think to yourself.
+
+    You continue looking around the room, and see some chains hanging from the ceiling,
+    and some more, from the wall next to a robust looking metal door.
+
+    You appear to be in a makeshift prison cell.
+
+    Fortunately, the time you spent watching MacGyver episodes in your childhood was
+    not for naught.
+
+    What do you do?
+
+'
+  roomName: Mysterious Cell
+  exits:
+  - keyString: north
+    exitDescription: You see a dark path to the north
+    valueRoom: {fileID: 11400000, guid: 3459690ed9a7a794daa21caa1a9fa358, type: 2}

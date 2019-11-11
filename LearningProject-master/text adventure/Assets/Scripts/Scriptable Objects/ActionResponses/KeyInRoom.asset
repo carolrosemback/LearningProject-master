@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d25ec49ad1fcd254ab0ff26467a1b8fc, type: 3}
+  m_Name: KeyInRoom
+  m_EditorClassIdentifier: 
+  requiredString: NorthRoom
+  roomToChangeTo: {fileID: 11400000, guid: 8d960665a47563e49917a9d23470c436, type: 2}
